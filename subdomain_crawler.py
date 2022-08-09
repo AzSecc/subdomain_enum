@@ -10,7 +10,7 @@ def request(url):
 target_url = input("Enter Base URL (like example.com): ")
 
 print("Subdomain Crawling Results:\n")
-with open("C:\\Users\\User\\Desktop\\Python\\vbst_hck\\subdomains-wodlist.txt", "r") as wordlist_file:
+with open("C:\\Users\\User\\Desktop\\Wordlists\\subdomains-wodlist.txt", "r") as wordlist_file:
     for line in wordlist_file:
         word = line.strip()
         test_url = word + "." + target_url
