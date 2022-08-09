@@ -17,3 +17,5 @@ with open("C:\\Users\\User\\Desktop\\Wordlists\\subdomains-wodlist.txt", "r") as
         response = request(test_url)
         if response:
             print("[+] Discovered Subdomain -->", test_url)
+
+            
